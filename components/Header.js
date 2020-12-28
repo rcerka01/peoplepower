@@ -26,13 +26,13 @@ class Menu extends Component {
                                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                                         <div class="navbar-nav ml-auto">
                                             <a href="/" class="nav-item nav-link active">Campaigns</a>
-                                            <a href="vision" class="nav-item nav-link">Vision</a>
-                                            <a href="roadmap" class="nav-item nav-link">Roadmap</a>
-                                            <a href="faq" class="nav-item nav-link">FAQ</a>
-                                            <a href="partnership" class="nav-item nav-link">Partnership</a>
-                                            <a href="support" class="nav-item nav-link">Support</a>
+                                            <a href="/vision" class="nav-item nav-link">Vision</a>
+                                            <a href="/roadmap" class="nav-item nav-link">Roadmap</a>
+                                            <a href="/faq" class="nav-item nav-link">FAQ</a>
+                                            <a href="/partnership" class="nav-item nav-link">Partnership</a>
+                                            <a href="/support" class="nav-item nav-link">Support</a>
                                             <a href="/" class="btn"><i class="fa fa-download"></i>Login</a>
-                                            <a href="register" class="nav-item nav-link">Register</a>
+                                            <a href="/register" class="nav-item nav-link">Register</a>
                                         </div>
                                     </div>
                                 </div>
