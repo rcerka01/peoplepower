@@ -1,19 +1,6 @@
 import React, { Component } from 'react';
 
-class About extends Component {
-    // can change class to function if not needed
-
-    // constructor(props) {
-    //     super(props);
-
-    //     this.state = { term: '' };
-    // }
-
-    // onInputChange(term) {
-    //     this.setState({ term });
-    //     this.props.onSearchTermChange(term);
-    // }
-
+class Partner extends Component {
     render() {
         return (
             <div class="about">
@@ -43,4 +30,4 @@ class About extends Component {
 
 }
 
-export default About;
+export default Partner;
