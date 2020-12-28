@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Hero extends Component {
+class About extends Component {
     // can change class to function if not needed
 
     // constructor(props) {
@@ -23,10 +23,10 @@ class Hero extends Component {
                             <h2>Fractional</h2>
                             <h2><span>Green</span> energy investing</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare</p>
-                            <a class="btn" href="https://htmlcodex.com/bootstrap-agency-template">Download Now</a>
+                            <a class="btn" href="vision">More</a>
                         </div>
                         <div class="col-md-6">
-                            <img src="img/hero.png" alt="Image" />
+                            <img src="img/hero.png" alt="Image to be made" />
                         </div>
                     </div>
                 </div>
@@ -36,4 +36,4 @@ class Hero extends Component {
 
 }
 
-export default Hero;
+export default About;
