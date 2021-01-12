@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+import { Auth0Provider } from "@auth0/auth0-react";
+import getConfig from 'next/config'
+import Login from '../components/Login'
+
+const { serverRuntimeConfig, publicRuntimeConfig } = getConfig();
 
 class Menu extends Component {
     render() {
@@ -9,7 +14,7 @@ class Menu extends Component {
                             <div class="col-lg-2">
                                 <div class="brand">
                                     <a href="/">
-                                        <img src="img/logo.png" alt="Logo" />
+                                        <img src="util/img/logo.png" alt="Logo" />
                                     </a>
                                 </div>
                             </div>
@@ -23,16 +28,21 @@ class Menu extends Component {
                                         <span class="navbar-toggler-icon"></span>
                                     </button>
 
+
                                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                                         <div class="navbar-nav ml-auto">
-                                            <a href="/" class="nav-item nav-link active">Campaigns</a>
-                                            <a href="/vision" class="nav-item nav-link">Vision</a>
-                                            <a href="/roadmap" class="nav-item nav-link">Roadmap</a>
+                                            <a href="/" class="nav-item nav-link active">CAMPAIGNS</a>
+                                            <a href="/vision" class="nav-item nav-link">VISION</a>
+                                            <a href="/partnership" class="nav-item nav-link">PARTNERSHIP</a>
+                                            <a href="/roadmap" class="nav-item nav-link">ROADMAP</a>
                                             <a href="/faq" class="nav-item nav-link">FAQ</a>
-                                            <a href="/partnership" class="nav-item nav-link">Partnership</a>
-                                            <a href="/support" class="nav-item nav-link">Support</a>
-                                            <a href="/" class="btn"><i class="fa fa-download"></i>Login</a>
-                                            <a href="/register" class="nav-item nav-link">Register</a>
+                                            <Auth0Provider
+                                                domain={publicRuntimeConfig.auth0.domain}
+                                                clientId={publicRuntimeConfig.auth0.clientId}
+                                                redirectUri={publicRuntimeConfig.auth0.redirectUri}
+                                            >
+                                                <Login />
+                                            </ Auth0Provider>
                                         </div>
                                     </div>
                                 </div>

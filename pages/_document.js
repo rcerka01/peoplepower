@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <noscript>You need to enable JavaScript to run this app.</ noscript>
-        <link href="../util/img/must-be-created.ico" rel="icon" />
+        <link href="../util/img/favicon.ico" rel="icon" />
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" /> 
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />

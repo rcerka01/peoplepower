@@ -19,15 +19,14 @@ class About extends Component {
             <div class="hero">
                 <div class="container-fluid">
                     <div class="row align-items-center">
-                        <div class="col-md-6">
-                            <h2>Fractional</h2>
-                            <h2><span>Green</span> energy investing</h2>
+                        <div>
+                            <h2>FRACTIONAL <span>GREEN</span> ENERGY INVESTING </ h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare</p>
                             <a class="btn" href="vision">More</a>
                         </div>
-                        <div class="col-md-6">
+                        {/* <div class="col-md-6">
                             <img src="img/hero.png" alt="Image to be made" />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
