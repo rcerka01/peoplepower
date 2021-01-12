@@ -6,8 +6,8 @@ import Projects from '../components/Projects'
 export default () => {
     return (
         <Layout>
-            <About />
-            <Projects />
+          <About />
+          <Projects />
         </ Layout>
     );
 }

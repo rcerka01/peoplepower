@@ -3,18 +3,27 @@
 /*******************************/
 body {
   color: #213546;
-  background: #eeeeee;
+  background: #f0f9fc;
   font-family: 'Raleway', sans-serif;
 }
 
 a {
-  color: #4F84C4;
+  color: #103448;
   transition: .3s;
+}
+
+.login:hover {
+  font-weight: normal;
+
+
+}.login {
+  font-weight: bold;
 }
 
 a:hover,
 a:active,
 a:focus {
+  font-weight: bold;
   color: #00539C;
   outline: none;
   text-decoration: none;
@@ -29,7 +38,7 @@ a:focus {
   width: 100%;
   max-width: 1366px;
   margin: 0 auto;
-  background: #eeeeee;
+  background: #f0f9fc;
 }
 
 .container {
@@ -44,7 +53,7 @@ a:focus {
   position: relative;
   width: 100%;
   padding: 15px 0;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #f0f9fc;
 }
 
 @media (min-width: 1200px) {
@@ -83,7 +92,7 @@ a:focus {
 
 .header .topbar-col a i {
   margin-right: 10px;
-  color: #4F84C4;
+  color: #103448;
 }
 
 .header .topbar-social {
@@ -105,7 +114,7 @@ a:focus {
 }
 
 .header .topbar-social a:hover i {
-  color: #4F84C4;
+  color: #103448;
 }
 
 .header .dropdown-menu {
@@ -116,12 +125,12 @@ a:focus {
 }
 
 .header .dropdown-menu a.active {
-  color: #4F84C4;
+  color: #103448;
 }
 
 @media (min-width: 992px) {
   .header .navbar {
-      background: #eeeeee !important;
+      background: #f0f9fc !important;
   }
   
   .header .navbar-brand {
@@ -132,13 +141,13 @@ a:focus {
       position: relative;
       padding: 8px 10px;
       color: #213546;
-      font-size: 16px;
+      font-size: 24px;
       z-index: 1;
   }
   
   .header .navbar-light a.nav-link:hover,
   .header .navbar-light a.nav-link.active {
-      color: #4F84C4;
+      color: #103448;
   }
 }
 
@@ -162,8 +171,8 @@ a:focus {
   }
   
   .header .navbar {
-      background: #eeeeee !important;
-      border: 1px solid #eeeeee;
+      background: #f0f9fc !important;
+      border: 1px solid #f0f9fc;
       z-index: 1;
   }
   
@@ -180,18 +189,20 @@ a:focus {
   position: relative;
   margin-left: 15px;
   padding: 12px 25px 10px 25px;
-  font-size: 13px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: bold;
   text-transform: uppercase;
-  color: #eeeeee;
+  color: #213546;
   border: none;
-  border-radius: 30px;
-  background: linear-gradient(#4F84C4, #00539C);
+  /* border-radius: 30px; */
+  border: 5px solid #213546;
+  background-color: #f0f9fc;
+  /* background: linear-gradient(red, green); */
   transition: .5s;
 }
 
 .header .navbar .btn:hover {
-  background: linear-gradient(#00539C, #4F84C4);
+  background: linear-gradient(#00539C, #103448);
 }
 
 .header .navbar .btn i {
@@ -214,11 +225,11 @@ a:focus {
   margin-bottom: 45px;
   padding: 80px 0;
   text-align: center;
-  background: linear-gradient(to right, #00539C, #4F84C4 50%);
+  background: linear-gradient(to right, #00539C, #103448 50%);
 }
 
 .page-header h2 {
-  color: #eeeeee;
+  color: #f0f9fc;
   font-size: 35px;
   font-weight: 700;
   text-transform: uppercase;
@@ -229,7 +240,7 @@ a:focus {
   padding: 0 12px;
   font-size: 16px;
   font-weight: 400;
-  color: #eeeeee;
+  color: #f0f9fc;
 }
 
 .page-header a::after {
@@ -240,7 +251,7 @@ a:focus {
   top: 6.5px;
   right: -6px;
   border-radius: 7px;
-  background: #eeeeee;
+  background: #f0f9fc;
 }
 
 .page-header a:last-child::after {
@@ -265,12 +276,12 @@ a:focus {
 
 .hero h2 {
   margin: 0;
-  font-size: 45px;
+  font-size: 70px;
   font-weight: 800;
 }
 
 .hero h2 span {
-  color: #4F84C4;
+  color: #103448;
 }
 
 .hero p {
@@ -287,13 +298,12 @@ a:focus {
   text-transform: uppercase;
   color: #ffffff;
   border: none;
-  border-radius: 50px;
-  background: linear-gradient(#4F84C4, #00539C);
+  background: linear-gradient(#103448, #00539C);
   transition: .5s;
 }
 
 .hero a.btn:hover {
-  background: linear-gradient(#00539C, #4F84C4);
+  background: linear-gradient(#00539C, #103448);
 }
 
 .hero img {
@@ -328,7 +338,7 @@ a:focus {
   height: 3px;
   left: calc(50% - 30px);
   bottom: 0;
-  background: linear-gradient(to left, #4F84C4, #00539C, #4F84C4);
+  background: linear-gradient(to left, #103448, #00539C, #103448);
   border-radius: 100%;
 }
 
@@ -521,7 +531,7 @@ a:focus {
   height: 3px;
   bottom: 0;
   left: 0;
-  background: linear-gradient(to left, #4F84C4, #00539C, #4F84C4);
+  background: linear-gradient(to left, #103448, #00539C, #103448);
   border-radius: 0 100% 100% 0; 
 }
 
@@ -538,12 +548,12 @@ a:focus {
   color: #ffffff;
   border: none;
   border-radius: 50px;
-  background: linear-gradient(#4F84C4, #00539C);
+  background: linear-gradient(#103448, #00539C);
   transition: .5s;
 }
 
 .service-row a.btn:hover {
-  background: linear-gradient(#00539C, #4F84C4);
+  background: linear-gradient(#00539C, #103448);
 }
 
 .service-row .service-row-col .col-sm-6 {
@@ -560,7 +570,7 @@ a:focus {
   padding: 8px 0;
   text-align: center;
   color: #ffffff;
-  background: #4F84C4;
+  background: #103448;
 }
 
 .service-row .service-row-col-text {
@@ -630,7 +640,7 @@ a:focus {
   height: 3px;
   bottom: 0;
   left: 0;
-  background: linear-gradient(to left, #4F84C4, #00539C, #4F84C4);
+  background: linear-gradient(to left, #103448, #00539C, #103448);
   border-radius: 0 100% 100% 0;
 }
 
@@ -647,18 +657,16 @@ a:focus {
   text-transform: uppercase;
   color: #ffffff;
   border: none;
-  border-radius: 50px;
-  background: linear-gradient(#4F84C4, #00539C);
+  background: linear-gradient(#103448, #00539C);
   transition: .5s;
 }
 
 .about a.btn:hover {
-  background: linear-gradient(#00539C, #4F84C4);
+  background: linear-gradient(#00539C, #103448);
 }
 
 .about img {
   max-width: 100%;
-  border-radius: 0 30px 30px 0;
 }
 
 @media(max-width: 767.98px) {
@@ -802,7 +810,7 @@ a:focus {
   height: 3px;
   bottom: 0;
   left: 0;
-  background: linear-gradient(to left, #4F84C4, #00539C, #4F84C4);
+  background: linear-gradient(to left, #103448, #00539C, #103448);
   border-radius: 0 100% 100% 0;
 }
 
@@ -830,7 +838,7 @@ a:focus {
   font-size: 16px;
   font-weight: 400;
   background: #ffffff;
-  border: 2px solid #4F84C4;
+  border: 2px solid #103448;
   border-radius: 0 30px 30px 0;
 }
 
@@ -871,12 +879,12 @@ a:focus {
   color: #ffffff;
   border: none;
   border-radius: 50px;
-  background: linear-gradient(#4F84C4, #00539C);
+  background: linear-gradient(#103448, #00539C);
   transition: .5s;
 }
 
 .faqs a.btn:hover {
-  background: linear-gradient(#00539C, #4F84C4);
+  background: linear-gradient(#00539C, #103448);
 }
 
 .faqs img {
@@ -1020,7 +1028,7 @@ a:focus {
   height: 3px;
   bottom: 0;
   left: 0;
-  background: linear-gradient(to left, #4F84C4, #00539C, #4F84C4);
+  background: linear-gradient(to left, #103448, #00539C, #103448);
   border-radius: 0 100% 100% 0; 
 }
 
@@ -1034,15 +1042,15 @@ a:focus {
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
-  color: #eeeeee;
+  color: #f0f9fc;
   border: none;
   border-radius: 50px;
-  background: linear-gradient(#4F84C4, #00539C);
+  background: linear-gradient(#103448, #00539C);
   transition: .5s;
 }
 
 .news a.btn:hover {
-  background: linear-gradient(#00539C, #4F84C4);
+  background: linear-gradient(#00539C, #103448);
 }
 
 .news img {
@@ -1064,7 +1072,7 @@ a:focus {
 .call-to-action {
   position: relative;
   padding: 50px 0;
-  background: linear-gradient(to right, #00539C, #4F84C4 50%);
+  background: linear-gradient(to right, #00539C, #103448 50%);
 }
 
 .service-page .call-to-action {
@@ -1072,7 +1080,7 @@ a:focus {
 }
 
 .call-to-action h2 {
-  color: #eeeeee;
+  color: #f0f9fc;
   font-size: 35px;
   font-weight: 600;
   text-transform: uppercase;
@@ -1080,7 +1088,7 @@ a:focus {
 
 .call-to-action p {
   margin: 0;
-  color: #eeeeee;
+  color: #f0f9fc;
   font-size: 16px;
   font-weight: 400;
 }
@@ -1092,7 +1100,7 @@ a:focus {
   font-weight: 600;
   text-transform: uppercase;
   color: #2c3035;
-  background: #eeeeee;
+  background: #f0f9fc;
   border-radius: 30px;
 }
 
@@ -1142,10 +1150,10 @@ a:focus {
   margin: 0;
   padding: 30px 0;
   text-align: center;
-  background: linear-gradient(#4F84C4, #00539C);
+  background: linear-gradient(#103448, #00539C);
   border-radius: 100px;
   box-shadow: 0 0 5px rgba(0, 0, 0, .4);
-  color: #eeeeee;
+  color: #f0f9fc;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -1168,7 +1176,7 @@ a:focus {
   top: 0;
   left: 50%;
   margin-left: -1px;
-  background: #4F84C4;
+  background: #103448;
 }
 
 .story .row.story-left,
@@ -1194,7 +1202,7 @@ a:focus {
   width: 14px;
   height: 14px;
   top: 45px;
-  background: linear-gradient(#4F84C4, #00539C);
+  background: linear-gradient(#103448, #00539C);
   box-shadow: 0 0 5px rgba(0, 0, 0, .4);
   border-radius: 15px;
   z-index: 1;
@@ -1216,7 +1224,7 @@ a:focus {
   padding: 20px;
   border: 1px solid #dddddd;
   border-radius: 6px;
-  background: #eeeeee;
+  background: #f0f9fc;
 }
 
 .story .story-launch {
@@ -1256,7 +1264,7 @@ a:focus {
 
 .story .story-box::after {
   top: 26px;
-  border-color: transparent transparent transparent #eeeeee;
+  border-color: transparent transparent transparent #f0f9fc;
   border-width: 10px;
 }
 
@@ -1267,7 +1275,7 @@ a:focus {
 }
 
 .story .row.story-right .story-box::after {
-  border-color: transparent #eeeeee transparent transparent;
+  border-color: transparent #f0f9fc transparent transparent;
 }
 
 .story .row.story-right .story-box::before {
@@ -1281,7 +1289,7 @@ a:focus {
 
 .story .story-launch .story-box::before {
   top: -19px;
-  border-color: transparent transparent #eeeeee transparent;
+  border-color: transparent transparent #f0f9fc transparent;
   border-width: 10px;
   z-index: 1;
 }
@@ -1295,7 +1303,7 @@ a:focus {
 
 .story .story-icon i {
   font-size: 25px;
-  color: #4F84C4;
+  color: #103448;
 }
 
 .story .story-icon img {
@@ -1458,10 +1466,12 @@ a:focus {
 /*******************************/
 /******** Portfolio CSS ********/
 /*******************************/
+
+
 .portfolio {
   position: relative;
   padding: 45px 0;
-  background: #eeeeee;
+  background: #f0f9fc;
 }
 
 .portfolio #portfolio-flters {
@@ -1481,9 +1491,8 @@ a:focus {
   color: #ffffff;
   font-size: 14px;
   text-transform: uppercase;
-  border-radius: 30px;
-  background: linear-gradient(#4F84C4, #00539C);
-  border: 1px solid #4F84C4;
+  background: linear-gradient(#103448, #00539C);
+  border: 1px solid #103448;
   transition: .5s;
 }
 
@@ -1504,12 +1513,12 @@ a:focus {
 }
 
 .portfolio .load-more .btn:hover {
-  background: linear-gradient(#00539C, #4F84C4);
+  background: linear-gradient(#00539C, #103448);
 }
 
 .portfolio .portfolio-item {
   position: relative;
-  height: 280px;
+  height: 350px;
   margin-bottom: 30px;
   border-radius: 8px;
   overflow: hidden;
@@ -1518,14 +1527,12 @@ a:focus {
 .portfolio .portfolio-item figure {
   background: #ffffff;
   overflow: hidden;
-  height: 280px;
+  height: 350px;
   position: relative;
-  border-radius: 30px 30px 0 0;
   margin: 0; 
 }
 
 .portfolio .portfolio-item figure img {
-  width: 100%; 
   height: 100%; 
   object-fit: cover;
   border-radius: 8px;
@@ -1546,7 +1553,7 @@ a:focus {
   width: 45px;
   height: 35px;
   border-radius: 6px;
-  background: linear-gradient(#4F84C4, #00539C);
+  background: linear-gradient(#103448, #00539C);
   transition: 0.5s;
 }
 
@@ -1559,7 +1566,7 @@ a:focus {
 
 .portfolio .portfolio-item figure .link-preview:hover,
 .portfolio .portfolio-item figure .link-details:hover {
-  background: linear-gradient(#00539C, #4F84C4);
+  background: linear-gradient(#00539C, #103448);
 }
 
 .portfolio .portfolio-item figure .link-preview:hover i,
@@ -1608,6 +1615,10 @@ a:focus {
   text-decoration: none;
 }
 
+.col-lg-3 {
+  flex: 0 0 33%;
+  max-width: 33%;
+}
 
 /*******************************/
 /********* Contact CSS *********/
@@ -1634,7 +1645,7 @@ a:focus {
   height: 3px;
   bottom: 0;
   left: 0;
-  background: linear-gradient(to left, #4F84C4, #00539C, #4F84C4);
+  background: linear-gradient(to left, #103448, #00539C, #103448);
   border-radius: 0 100% 100% 0;
 }
 
@@ -1753,7 +1764,7 @@ a:focus {
   height: 3px;
   bottom: 0;
   left: 0;
-  background: linear-gradient(to left, #4F84C4, #00539C, #4F84C4);
+  background: linear-gradient(to left, #103448, #00539C, #103448);
   border-radius: 0 100% 100% 0; 
 }
 

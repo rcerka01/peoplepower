@@ -7,7 +7,7 @@ class Projects extends Component {
             <div class="portfolio">
                 <div class="container">
                     <div class="section-header">
-                        <h2>£££</h2>
+                        <h2>Campaigns</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium ornare velit non</p>
                     </div>
                     <div class="row portfolio-container">
