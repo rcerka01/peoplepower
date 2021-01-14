@@ -37,9 +37,9 @@ class Menu extends Component {
                                             <a href="/roadmap" class="nav-item nav-link">ROADMAP</a>
                                             <a href="/faq" class="nav-item nav-link">FAQ</a>
                                             <Auth0Provider
-                                                domain={process.env.auth0_domain}
-                                                clientId={process.env.auth0_clientId_dev}
-                                                redirectUri={process.env.auth0_redirectUri}
+                                                domain={process.env.NEXT_PUBLIC_auth0_domain}
+                                                clientId={process.env.NEXT_PUBLIC_auth0_clientId_dev}
+                                                redirectUri={process.env.NEXT_PUBLIC_auth0_redirectUri}
                                                 // domain={publicRuntimeConfig.auth0.domain}
                                                 // clientId={publicRuntimeConfig.auth0.clientId}
                                                 // redirectUri={publicRuntimeConfig.auth0.redirectUri}
