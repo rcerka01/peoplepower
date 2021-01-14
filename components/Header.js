@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Auth0Provider } from "@auth0/auth0-react";
-import getConfig from 'next/config'
+//import getConfig from 'next/config'
 import Login from '../components/Login'
 
-const { serverRuntimeConfig, publicRuntimeConfig } = getConfig();
+//const { serverRuntimeConfig, publicRuntimeConfig } = getConfig();
 
 class Menu extends Component {
     render() {
@@ -37,9 +37,12 @@ class Menu extends Component {
                                             <a href="/roadmap" class="nav-item nav-link">ROADMAP</a>
                                             <a href="/faq" class="nav-item nav-link">FAQ</a>
                                             <Auth0Provider
-                                                domain={publicRuntimeConfig.auth0.domain}
-                                                clientId={publicRuntimeConfig.auth0.clientId}
-                                                redirectUri={publicRuntimeConfig.auth0.redirectUri}
+                                                domain={process.env.auth0_domain}
+                                                clientId={process.env.auth0_clientId_dev}
+                                                redirectUri={process.env.auth0_redirectUri}
+                                                // domain={publicRuntimeConfig.auth0.domain}
+                                                // clientId={publicRuntimeConfig.auth0.clientId}
+                                                // redirectUri={publicRuntimeConfig.auth0.redirectUri}
                                             >
                                                 <Login />
                                             </ Auth0Provider>
