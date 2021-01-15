@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Auth0Provider } from "@auth0/auth0-react";
 //import getConfig from 'next/config'
 import Login from '../components/Login'
+import Profile from '../components/Profile'
 
 //const { serverRuntimeConfig, publicRuntimeConfig } = getConfig();
 
@@ -27,15 +28,16 @@ class Menu extends Component {
                                 </div>
                             </div>
                             <div class="col-lg-10">
-                                <div class="topbar">
-
+                            <div class="topbar">
+                                <div class="topbar-col profile">
+                                    <Profile />
                                 </div>
+                            </div>
                                 <div class="navbar navbar-expand-lg bg-light navbar-light">
                                     <a href="#" class="navbar-brand">MENU</a>
                                     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                                         <span class="navbar-toggler-icon"></span>
                                     </button>
-
 
                                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                                         <div class="navbar-nav ml-auto">
