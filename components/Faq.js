@@ -5,18 +5,8 @@ class Faq extends Component {
     render() {
         return (
         <div>
-
-            <div class="page-header">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <h2>faq</h2>
-                        </div>
-                        <div class="col-12">
-                            <a href="/">Home</a>
-                        </div>
-                    </div>
-                </div>
+            <div>
+                <img src="/util/img/banner.jpg" alt="People Power" />
             </div>
 
             <div class="hero">

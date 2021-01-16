@@ -13,36 +13,62 @@ class Projects extends Component {
                     <div class="row portfolio-container">
                         <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item web-des">
                             <div class="portfolio-wrap">
+                            <h3 class='portfolio-header'>STARTER PROJECT</h3>
+
                                 <figure>
-                                    <img src="./util/img/base/mills.jpg" alt="" />
+                                    <img src="./util/img/wind-turbine.jpg" alt="" />
                                     <a href="#"></a>
                                     <a href="#"></a>
-                                    <a class="portfolio-title" href="loveuk/1">300MW Fat Mama</a>
+                                    <a class="portfolio-title" href="loveuk/1">INVEST</a>
                                 </figure>
+                                <p class='project-parameters'>
+                                    <span class='costs'>500MW WIND TURBINE IN FRESGOE</span><br />
+                                    Total Cost: <span class='costs'>1,270,000£</span><br />
+                                    Token Cost: <span class='costs'>57.00£</span><br />
+                                    Total Tokens: <span class='costs'>20,000</span><br />
+                                    Tokens Available: <span class='costs'>15,700</span><br />
+                                    Yield per Token pes Year: <span class='costs'>6.23£</span><br />
+                                </p>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item web-dev">
                             <div class="portfolio-wrap">
+                            <h3>COMMING UP</h3>
                                 <figure>
-                                    <img src="./util/img/base/mills.jpg" alt="" />
+                                <img src="./util/img/wind-turbine-disabled.jpg" alt="" />
                                     <a href="#"></a>
                                     <a href="#"></a>
-                                    <a class="portfolio-title" href="loveuk/2">500MW Good Bye Putin</a>
+                                    <a class="portfolio-title portfolio-title-unavailable" href="#">unavailable</a>
                                 </figure>
+                                <p class='project-parameters'>
+                                    <span class='costs'>1000MW WIND TURBINE IN CROSSKIRK</span><br />
+                                    Total Cost: <span class='costs'>2,250,000£</span><br />
+                                    Token Cost: <span class='costs'>79.00£</span><br />
+                                    Total Tokens: <span class='costs'>40,000</span><br />
+                                    Tokens Available: <span class='costs'>0</span><br />
+                                    Yield per Token pes Year: <span class='costs'>9.15£</span><br />
+                                </p>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item dig-mar">
                             <div class="portfolio-wrap">
+                            <h3>COMMING UP</h3>
                                 <figure>
-                                    <img src="./util/img/base/mills.jpg" alt="" />
+                                <img src="./util/img/wind-turbine-disabled.jpg" alt="" />
                                     <a href="#"></a>
                                     <a href="#"></a>
-                                    <a class="portfolio-title" href="loveuk/3">10000MW Eleonora</a>
+                                    <a class="portfolio-title" href="#">UNAVAILABLE</a>
                                 </figure>
+                                <p class='project-parameters'>
+                                    <span class='costs'>1000MW WIND TURBINE IN CROSSKIRK</span><br />
+                                    Total Cost: <span class='costs'>2,250,000£</span><br />
+                                    Token Cost: <span class='costs'>79.00£</span><br />
+                                    Total Tokens: <span class='costs'>40,000</span><br />
+                                    Tokens Available: <span class='costs'>0</span><br />
+                                    Yield per Token pes Year: <span class='costs'>9.15£</span><br />
+                                </p>
                             </div>
                         </div>
-                       
-                        
                     </div>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
+
 body {
   color: #213546;
   background: #f0f9fc;
@@ -9,29 +10,27 @@ body {
 
 a {
   color: #103448;
+  font-weight: bold;
   transition: .3s;
 }
 
-.login:hover {
-  font-weight: normal;
+/* .login:hover {
+  color: #103448;
+} */
 
-
-}.login {
-  font-weight: bold;
+.login {
+  color: #ab2308;
 }
 
-a:hover,
-a:active,
-a:focus {
-  font-weight: bold;
-  color: #00539C;
-  outline: none;
-  text-decoration: none;
+a.profile:hover,
+a.profile:active,
+a.profile:focus {
+  color: #ab2308;
+  text-decoration: underline;
 }
 
 .profile {
-  font-size: 20px;
-  font-weight: bold;;
+  font-weight: normal;;
 }
 
 .btn:focus {
@@ -76,7 +75,7 @@ a:focus {
   width: 100%;
   max-width: 150px;
   height: 100%;
-  max-height: 100px;
+  max-height: 150px;
 }
 
 .header .topbar {
@@ -92,7 +91,12 @@ a:focus {
 
 .header .topbar-col a {
   color: #213546;
-  font-size: 13px;
+  font-size: 16px;
+}
+
+.header .topbar-col a:hover {
+  color: #ab2308;
+  font-size: 16px;
 }
 
 .header .topbar-col a i {
@@ -119,7 +123,7 @@ a:focus {
 }
 
 .header .topbar-social a:hover i {
-  color: #103448;
+  color: #ab2308;
 }
 
 .header .dropdown-menu {
@@ -150,9 +154,15 @@ a:focus {
       z-index: 1;
   }
   
-  .header .navbar-light a.nav-link:hover,
   .header .navbar-light a.nav-link.active {
-      color: #103448;
+    color: #ab2308;
+    font-weight: bold;
+  }
+
+  .header .navbar-light a.nav-link:hover {
+    color: #ab2308;
+    font-weight: bold;
+    text-decoration: underline;
   }
 }
 
@@ -281,12 +291,13 @@ a:focus {
 
 .hero h2 {
   margin: 0;
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 800;
+  color: #0f222f;
 }
 
 .hero h2 span {
-  color: #103448;
+  color: #ab2308;
 }
 
 .hero p {
@@ -297,18 +308,18 @@ a:focus {
 
 .hero a.btn {
   position: relative;
-  padding: 10px 35px;
-  font-size: 13px;
+  padding: 2px 35px;
+  font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
   color: #ffffff;
   border: none;
-  background: linear-gradient(#103448, #00539C);
+  background: linear-gradient(#103c5b, #0f222f);
   transition: .5s;
 }
 
 .hero a.btn:hover {
-  background: linear-gradient(#00539C, #103448);
+  background: linear-gradient(#ab2308, #390d04);
 }
 
 .hero img {
@@ -1389,6 +1400,7 @@ a:focus {
 /*******************************/
 /*********** Team CSS **********/
 /*******************************/
+
 .team {
   position: relative;
   width: 100%;
@@ -1472,6 +1484,22 @@ a:focus {
 /******** Portfolio CSS ********/
 /*******************************/
 
+.project-parameters {
+  text-align: left;
+}
+
+.costs {
+  font-weight: bold;
+}
+
+.portfolio-header {
+  font-weight: bold;
+}
+
+.portfolio-wrap {
+  text-align: center;
+}
+
 
 .portfolio {
   position: relative;
@@ -1503,7 +1531,7 @@ a:focus {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: #ffffff;
+  /* background: #ffffff; */
   color: #213546;
 }
 
@@ -1523,7 +1551,7 @@ a:focus {
 
 .portfolio .portfolio-item {
   position: relative;
-  height: 350px;
+  height: 600px;
   margin-bottom: 30px;
   border-radius: 8px;
   overflow: hidden;
@@ -1532,7 +1560,7 @@ a:focus {
 .portfolio .portfolio-item figure {
   background: #ffffff;
   overflow: hidden;
-  height: 350px;
+  height: 320px;
   position: relative;
   margin: 0; 
 }
@@ -1606,15 +1634,17 @@ a:focus {
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   color: #ffffff;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 800;
   text-transform: uppercase;
-  background: rgba(79, 132, 196, .8);
+  /* background: #ab2308; */
+  background: rgba(171, 35, 8, 0.8);
   border-radius: 0;
 }
+
 
 .portfolio .portfolio-item figure .portfolio-title:hover {
   text-decoration: none;
