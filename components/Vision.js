@@ -3,28 +3,18 @@ import React, { Component } from 'react';
 class Vision extends Component {
 
     render() {
+
         return (
         <div>
-
-            <div class="page-header">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <h2>KW / £</h2>
-                        </div>
-                        <div class="col-12">
-                            <a href="/">Home</a>
-                        </div>
-                    </div>
-                </div>
+            <div>
+                <img src="/util/img/banner.jpg" alt="People Power" />
             </div>
-
 
             <div class="single">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2 class="section-title">This is... </h2>
+                            <h2 class="section-title">This is Vision... </h2>
                             <h3>Lorem ipsum dolor</h3>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit. Nam congue molestie nibh in venenatis. Etiam non dui vel purus mollis consectetur. Sed at cursus lectus, sed iaculis lorem. Suspendisse venenatis est eu neque elementum, a accumsan tortor scelerisque. Nullam id erat arcu. Morbi suscipit commodo tortor non efficitur. Ut pretium sollicitudin lorem quis laoreet. Nulla vestibulum ante ut tellus hendrerit, ac condimentum sapien vehicula. Fusce dapibus, nulla non venenatis pretium, purus mauris vehicula elit, at posuere leo elit id augue. Donec ullamcorper tortor et tellus convallis maximus.
